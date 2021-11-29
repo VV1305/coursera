@@ -1,14 +1,16 @@
- /*base styles*/
+ /****** base styles *******/
 * {
 	box-sizing: border-box;
 	font-family: Helvetica;
 }
 
+/*header*/
 h1 {
 	text-align: center;
 	margin-bottom: 15px;
 }
 
+/*section title*/
 h3 {
 	border: 1px solid black;
 	padding: 5px;
@@ -20,7 +22,6 @@ h3 {
 }
 
 p {
-	height: 150px;
 	margin-right: auto;
 	margin-left: auto;
 	clear: right;
@@ -32,10 +33,10 @@ section {
 	background-color: grey;
 	margin: 5px;
 	position: relative;
-  height: 130px;
+  overflow: hidden;
 }
 
-/*background-color of the section title*/
+/****** background-color of the section title ******/
 .chicken {
 	background-color: #e87474;
 }
@@ -49,7 +50,7 @@ section {
 	background-color: #f0de6e;
 }
 
-/*simple responsive framework */
+/****** simple responsive framework ******/
 .row {
 	width: 100%;
 }
