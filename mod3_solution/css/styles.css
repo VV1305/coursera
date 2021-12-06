@@ -1,0 +1,64 @@
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/****** Header ******/
+#header-nav {
+	background-color: lightblue;
+	border-radius: 0;
+	border: 0;
+}
+#header-nav button {
+	margin-top: 20px;
+}
+
+/*company name*/
+.navbar-brand {
+	padding-top: 0;
+	line-height: 75px;
+	height: 75px;
+}
+.navbar-brand h1 {
+	font-weight: bold;
+}
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus  {
+	color: darkblue;
+	text-decoration: none;
+}
+
+/*dropdown menu*/
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: inherit;
+	text-align: center;
+	font-weight: bold;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid darkblue;
+}
+
+/****** Main Content ******/
+#page-heading {
+	font-weight: bold;
+}
+
+#main-content h2 {
+	font-weight: bold;
+}
+
+#main-section {
+	padding: 20px;
+	margin: 15px;
+	background-color: lightpink;
+}
+
+
